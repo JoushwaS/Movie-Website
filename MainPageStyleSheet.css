@@ -33,7 +33,12 @@ background-image: url("items_background_img.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 border-radius: 10px;
+transition: all 0.5s;
 
+}
+.items:hover{
+  transform: translateY(-15px);
+  cursor: pointer;
 }
 
 
@@ -77,7 +82,14 @@ justify-content: center;
 
 
 
+/* Css for Tutorials Page */
 
+.headingTop h1{
+
+text-align: center;
+color: antiquewhite;
+font-size:5em;
+}
 
 
 

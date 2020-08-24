@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+/>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
     <meta charset="UTF-8">
@@ -24,17 +20,31 @@
 <body>
   <!----navigation bar Code------->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
-    <a href="#" class="navbar-brand">Josh Stuff</a>
+    <a href="index.html" class="navbar-brand">Josh Stuff</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link ">Home</a>
+            <a href="index.html" class="nav-item nav-link ">Home</a>
             <a href="#" class="nav-item nav-link">Movies</a>
             <a href="#" class="nav-item nav-link ">Games</a>
-            <a href="#" class="nav-item nav-link">Tutorials</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Tutorials.html" id="navbardrop" data-toggle="dropdown">
+               Tutorials
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Browse All</a>
+                <a class="dropdown-item" href="#">Photography Courses</a>
+                <a class="dropdown-item" href="#">Programming Courses</a>
+                <a class="dropdown-item" href="#">Food and Health Courses</a>
+              </div>
+            </li>
+            
+
+        
+           
             <a href="#" class="nav-item nav-link ">Music</a>
             
         </div>
@@ -82,6 +92,7 @@
   </a>
 </div>
 <br>
+<!---movies Section-->
 <div class="moviesSection">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
@@ -404,17 +415,17 @@ Captain Marvel 2019 Hindi Dub HD
 
 </div>
 <br>
-</div>
+  </div>
 
 
 
 
 
-</div>
+  </div>
 
 
 
-</div>
+  </div>
 
 
 
@@ -434,6 +445,14 @@ Captain Marvel 2019 Hindi Dub HD
   
 </div>
 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
 
 <div class="requestsection">
