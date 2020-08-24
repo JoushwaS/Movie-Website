@@ -37,7 +37,7 @@ transition: all 0.5s;
 
 }
 .items:hover{
-  transform: translateY(-15px);
+  transform: translateY(-16px);
   cursor: pointer;
 }
 
